@@ -1,0 +1,75 @@
+img{
+	width: 25%;
+}
+
+.right {
+	float: right;
+}
+
+.left{
+	float: left;
+}
+
+#ref{
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.line{
+	background: black;
+	width: 85%;
+	height: .25%;
+	margin:auto;
+	min-width: 585px;
+	max-width: 1334px;
+	margin-bottom: 12px;
+	margin-top: 12px;
+}
+
+.clear{
+	clear: both;
+}
+
+#content {
+	background: #a79e84;
+	width: 100%;
+	margin-left: 24px;	
+	text-align: center;
+	padding-bottom: 24px;
+}
+
+#content p{
+	margin: 0;
+	padding: 0;
+}
+
+.entry{
+	width: 75%;
+	max-width: 1000px;
+	min-width: 600px;
+	flex-direction: column;
+	margin: auto;
+	text-align: left;
+}
+
+.header{
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.tab{
+	padding-left: 24px;
+}
+
+.job{
+	font-style: italic;
+}
+
+.twoCol li{
+	float: left;
+	width: 50%;
+}
+
+.twoCol li:nth-child(even){
+	clear: both;
+}

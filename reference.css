@@ -1,0 +1,59 @@
+img{
+	width: 25%;
+	float: right;
+}
+
+#ref{
+	font-size: 36px;
+	font-weight: bold
+}
+
+.line{
+	background: black;
+	width: 85%;
+	height: .25%;
+	margin:auto;
+	min-width: 585px;
+	max-width: 1334px;
+}
+
+.clear{
+	clear: both;
+}
+
+#content {
+	background: #a79e84;
+	width: 100%;
+	margin-left: 24px;	
+	text-align: center;
+	padding-bottom: 24px;
+}
+
+#content p{
+	margin: 0;
+	padding: 0;
+}
+
+.entry{
+	width: 75%;
+	max-width: 1000px;
+	min-width: 600px;
+	flex-direction: column;
+	margin: auto;
+	text-align: left;
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.header{
+	font-weight: bold;
+	font-size: 24px;
+}
+
+.tab{
+	padding-left: 24px;
+}
+
+.job{
+	font-style: italic;
+}

@@ -1,0 +1,37 @@
+div{
+	display: flex;
+}
+
+#header{
+	margin-left: 24px;
+	font-size: 36px;
+	margin-bottom: -6px;
+}
+
+#mainImage{
+	width: 45%;
+	float: left;
+	padding-right: 24px;
+	padding-top: 24px;
+	padding-bottom: 24px;
+	margin-top: -24px;
+	background: #e3e0cc;
+}
+
+.content{
+	margin-top: 24px;
+	margin-left: 24px;
+	flex: 1 1 200px;
+	display: block;
+}
+
+.about{
+	font-size: 18px;
+	padding-left: 12px;
+	padding-right: 12px;
+}
+
+.text{
+	flex-direction: column;
+	background: #a79e84;
+}

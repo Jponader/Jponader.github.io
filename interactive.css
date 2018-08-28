@@ -1,0 +1,108 @@
+a {
+	color: #000000;
+}
+
+#intro {
+	background: #e3e0cc;
+	padding-bottom: 24px;
+	margin-left: -24px;
+	margin-top: -24px;
+	margin-right: -24px;
+	margin-bottom: 12px;
+}
+
+#resume{
+	background: #a79e84;
+	text-align: center;
+	width: 100%;
+	margin-left: 24px;
+	margin-top: 24px;
+	padding: 24px;
+	min-width: 745px;
+}
+
+.entry{
+	width: 75%;
+	max-width: 1000px;
+	min-width: 600px;
+	flex-direction: column;
+	margin: auto;
+	text-align: left;
+}
+.entryTitle{
+	margin: auto;
+	text-align: left;
+	padding-top: 24px;
+}
+
+.header{
+	font-weight: bold;
+}
+
+#resume p{
+	margin: 0;
+	padding: 0;
+}
+
+#resume ul {
+	margin-top:0;
+	margin-bottom: 0;
+}
+
+.entryTitle p{
+	font-size: 18px;
+	float: left;
+}
+
+.entryTitle a{
+	font-size: 18px;
+	float: left;
+}
+
+.entryTitle p:last-child {
+	float: right;
+}
+
+.line{
+	background: black;
+	width: 85%;
+	height: .25%;
+	margin:auto;
+	min-width: 585px;
+	max-width: 1334px;
+}
+
+.clear{
+	clear: both;
+}
+
+.tab{
+	padding-left: 24px;
+}
+
+.job{
+	font-style: italic;
+}
+
+#name {
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.section {
+	font-size: 36px;
+	font-weight: bold;
+}
+
+#twoCol li{
+	float: left;
+	width: 50%;
+}
+
+#twoCol div{
+	padding-top: 24px;
+}
+
+#twoCol li:nth-child(even){
+	clear: both;
+}
